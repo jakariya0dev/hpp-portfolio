@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: brown; */
+}
+nav{
+    margin: 10px 120px;
+    
+}
+.brand-logo{
+    float: left;
+    /* margin-left: 120px; */
+}
+.menu{
+    float: right;
+}
+.menu a{
+    text-decoration: none;
+    color: darkblue;
+    margin-right: 24px;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: darkblue;
+    margin-right: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#hero{
+    clear: both;
+    background-color: rgb(226, 226, 234);
+}
+.hero-info{
+    /* background-color: rgb(249, 249, 251); */
+    width: 50%;
+    float: left;
+    padding: 120px 0 120px 120px;
+
+}
+.hero-info h2{
+    color: darkblue;
+    font-family: 'Inter', sans-serif;
+}
+.hero-info h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-info h1 span{
+    color: blue;
+}
+.hero-info p{
+    margin: 16px 0;
+}
+
+.hire-me-btn{
+    background-color: green;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.hire-me-btn:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.download-cv-btn{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.download-cv-btn:hover{
+    background-color: green;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.hero-pro-pic{
+    /* background-color: chocolate; */
+    width: 50%;
+    float: right;
+}
+.hero-pro-pic{
+    min-height: 500px;
+    /* background-color: green; */
+}
+
+.hero-pro-pic div{
+    margin: 0 auto;
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://d150u0abw3r906.cloudfront.net/wp-content/uploads/2022/09/image24-5.png");
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    /* background-color: blue; */
+}
+
+#about{
+    clear: both;
+}
+.client{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.client img{
+    height: 75px;
+    width: 100px;
+    margin: 10px;
+}
+
+.about-column{
+    height: 700px;
+    padding: 0 120px;
+    
+}
+
+.about-right, .about-left{
+    width: 50%;
+    float: left;
+}
+
+.about-left img{
+    width: 100%;
+    height: 500px;
+}
+
+.about-right{
+    padding-left: 16px;
+    padding-top: 70px;
+}
+.about-right h5{
+    font-family: 'Roboto Mono', monospace;
+    color: darkblue;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.about-right h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18;
+    margin-bottom: 5px;
+}
+.about-right p{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.about-right p span{
+    font-weight: bold;
+}
+.dl-cv{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    margin-right: 16px;
+}
+
+.dl-cv:hover{
+    background-color: darkblue;
+}
+.social-link{
+    display: inline-block;
+    background-color: darkblue;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.social-link:hover{
+    background-color: blue;
+}
+/* 
+
+<style>
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
