@@ -124,7 +124,7 @@ nav{
 }
 
 .about-column{
-    height: 700px;
+    height: 600px;
     padding: 0 120px;
     
 }
@@ -186,6 +186,114 @@ nav{
 .social-link:hover{
     background-color: blue;
 }
+#skills{
+    margin: 0 120px;
+    height: 500px;
+    /* background-color: burlywood; */
+}
+#skills .left{
+    float: left;
+    padding-top: 70px;
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+#skills .left h5{
+    font-family: 'Roboto Mono', monospace;
+    color: darkblue;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#skills .left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18;
+    margin-bottom: 5px;
+}
+
+#skills .left p{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#skills .left a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    margin-right: 16px;
+}
+
+#skills .right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+#skills .right p{
+    
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.skill{
+    margin-bottom: 40px;
+}
+.skill .outer{
+    display: inline-block;
+    border-radius: 5px;
+    width: 85%;
+    height: 5px;
+    background-color: rgb(222, 222, 232);
+}
+
+.skill .inner{
+    border-radius: 5px;
+    height: 5px;
+    background-color: rgb(14, 14, 141);
+}
+
+.percent{
+    display: inline-block;
+}
+
+.p-68{
+    width: 68%;
+}
+.p-78{
+    width: 78%;
+}
+.p-70{
+    width: 70%;
+}
+.p-90{
+    width: 90%;
+}
+
+#services{
+    text-align: center;
+    height: 700px;
+    background-color: burlywood;
+}
+#services h5{
+    font-family: 'Roboto Mono', monospace;
+    color: darkblue;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#services h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18;
+    margin-bottom: 5px;
+}
+
 /* 
 
 <style>
